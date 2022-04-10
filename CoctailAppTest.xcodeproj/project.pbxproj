@@ -7,19 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		997A7FCF280072360055C9A4 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997A7FCE280072360055C9A4 /* Drink.swift */; };
+		997A7FD1280075900055C9A4 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997A7FD0280075900055C9A4 /* NetworkService.swift */; };
 		999F7ADC27FE506000DB86C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999F7ADB27FE506000DB86C3 /* AppDelegate.swift */; };
 		999F7ADE27FE506000DB86C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999F7ADD27FE506000DB86C3 /* SceneDelegate.swift */; };
 		999F7AE027FE506000DB86C3 /* CoctailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999F7ADF27FE506000DB86C3 /* CoctailViewController.swift */; };
 		999F7AE527FE506300DB86C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 999F7AE427FE506300DB86C3 /* Assets.xcassets */; };
+		999FF46D27FF8CBD00B20E10 /* Ext + String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999FF46C27FF8CBD00B20E10 /* Ext + String.swift */; };
+		999FF46F27FF8F1C00B20E10 /* TagsCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999FF46E27FF8F1C00B20E10 /* TagsCloud.swift */; };
+		B0AC335280E770F500148DDD /* Pods_CoctailAppTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3604BAD2DF41D0789E1FC650 /* Pods_CoctailAppTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3604BAD2DF41D0789E1FC650 /* Pods_CoctailAppTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoctailAppTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D3A08AE5D08CA4CBCF29184 /* Pods-CoctailAppTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoctailAppTest.debug.xcconfig"; path = "Target Support Files/Pods-CoctailAppTest/Pods-CoctailAppTest.debug.xcconfig"; sourceTree = "<group>"; };
+		58A575EE806B264F6040DB62 /* Pods-CoctailAppTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoctailAppTest.release.xcconfig"; path = "Target Support Files/Pods-CoctailAppTest/Pods-CoctailAppTest.release.xcconfig"; sourceTree = "<group>"; };
+		997A7FCE280072360055C9A4 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		997A7FD0280075900055C9A4 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		999F7AD827FE506000DB86C3 /* CoctailAppTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoctailAppTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		999F7ADB27FE506000DB86C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		999F7ADD27FE506000DB86C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		999F7ADF27FE506000DB86C3 /* CoctailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoctailViewController.swift; sourceTree = "<group>"; };
 		999F7AE427FE506300DB86C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		999F7AE927FE506300DB86C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		999FF46C27FF8CBD00B20E10 /* Ext + String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext + String.swift"; sourceTree = "<group>"; };
+		999FF46E27FF8F1C00B20E10 /* TagsCloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsCloud.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +39,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0AC335280E770F500148DDD /* Pods_CoctailAppTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		99131EA62CE0E272DBCEB73C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D3A08AE5D08CA4CBCF29184 /* Pods-CoctailAppTest.debug.xcconfig */,
+				58A575EE806B264F6040DB62 /* Pods-CoctailAppTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		999F7ACF27FE506000DB86C3 = {
 			isa = PBXGroup;
 			children = (
 				999F7ADA27FE506000DB86C3 /* CoctailAppTest */,
 				999F7AD927FE506000DB86C3 /* Products */,
+				99131EA62CE0E272DBCEB73C /* Pods */,
+				A9ECA2EB5248298038854C68 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,10 +79,22 @@
 				999F7ADB27FE506000DB86C3 /* AppDelegate.swift */,
 				999F7ADD27FE506000DB86C3 /* SceneDelegate.swift */,
 				999F7ADF27FE506000DB86C3 /* CoctailViewController.swift */,
+				999FF46C27FF8CBD00B20E10 /* Ext + String.swift */,
+				999FF46E27FF8F1C00B20E10 /* TagsCloud.swift */,
 				999F7AE427FE506300DB86C3 /* Assets.xcassets */,
 				999F7AE927FE506300DB86C3 /* Info.plist */,
+				997A7FCE280072360055C9A4 /* Drink.swift */,
+				997A7FD0280075900055C9A4 /* NetworkService.swift */,
 			);
 			path = CoctailAppTest;
+			sourceTree = "<group>";
+		};
+		A9ECA2EB5248298038854C68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3604BAD2DF41D0789E1FC650 /* Pods_CoctailAppTest.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -68,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 999F7AEC27FE506300DB86C3 /* Build configuration list for PBXNativeTarget "CoctailAppTest" */;
 			buildPhases = (
+				D64432C6416C47C7EA307C84 /* [CP] Check Pods Manifest.lock */,
 				999F7AD427FE506000DB86C3 /* Sources */,
 				999F7AD527FE506000DB86C3 /* Frameworks */,
 				999F7AD627FE506000DB86C3 /* Resources */,
+				69C39D2BCCAD9D085E0D126A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,14 +163,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		69C39D2BCCAD9D085E0D126A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoctailAppTest/Pods-CoctailAppTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoctailAppTest/Pods-CoctailAppTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoctailAppTest/Pods-CoctailAppTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D64432C6416C47C7EA307C84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoctailAppTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		999F7AD427FE506000DB86C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				999FF46F27FF8F1C00B20E10 /* TagsCloud.swift in Sources */,
+				999FF46D27FF8CBD00B20E10 /* Ext + String.swift in Sources */,
 				999F7AE027FE506000DB86C3 /* CoctailViewController.swift in Sources */,
 				999F7ADC27FE506000DB86C3 /* AppDelegate.swift in Sources */,
+				997A7FCF280072360055C9A4 /* Drink.swift in Sources */,
 				999F7ADE27FE506000DB86C3 /* SceneDelegate.swift in Sources */,
+				997A7FD1280075900055C9A4 /* NetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +339,7 @@
 		};
 		999F7AED27FE506300DB86C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D3A08AE5D08CA4CBCF29184 /* Pods-CoctailAppTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -282,6 +367,7 @@
 		};
 		999F7AEE27FE506300DB86C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58A575EE806B264F6040DB62 /* Pods-CoctailAppTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
