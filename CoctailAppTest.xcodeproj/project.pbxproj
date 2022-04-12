@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		991161B82804D6C0003EBAE3 /* Ext + Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991161B72804D6C0003EBAE3 /* Ext + Label.swift */; };
 		997A7FCF280072360055C9A4 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997A7FCE280072360055C9A4 /* Drink.swift */; };
 		997A7FD1280075900055C9A4 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997A7FD0280075900055C9A4 /* NetworkService.swift */; };
 		999F7ADC27FE506000DB86C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999F7ADB27FE506000DB86C3 /* AppDelegate.swift */; };
@@ -15,6 +16,7 @@
 		999F7AE527FE506300DB86C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 999F7AE427FE506300DB86C3 /* Assets.xcassets */; };
 		999FF46D27FF8CBD00B20E10 /* Ext + String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999FF46C27FF8CBD00B20E10 /* Ext + String.swift */; };
 		999FF46F27FF8F1C00B20E10 /* TagsCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999FF46E27FF8F1C00B20E10 /* TagsCloud.swift */; };
+		99DAD1B02802FB7800FF49F2 /* CoctailNameTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DAD1AF2802FB7800FF49F2 /* CoctailNameTextField.swift */; };
 		B0AC335280E770F500148DDD /* Pods_CoctailAppTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3604BAD2DF41D0789E1FC650 /* Pods_CoctailAppTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -22,6 +24,7 @@
 		3604BAD2DF41D0789E1FC650 /* Pods_CoctailAppTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoctailAppTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D3A08AE5D08CA4CBCF29184 /* Pods-CoctailAppTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoctailAppTest.debug.xcconfig"; path = "Target Support Files/Pods-CoctailAppTest/Pods-CoctailAppTest.debug.xcconfig"; sourceTree = "<group>"; };
 		58A575EE806B264F6040DB62 /* Pods-CoctailAppTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoctailAppTest.release.xcconfig"; path = "Target Support Files/Pods-CoctailAppTest/Pods-CoctailAppTest.release.xcconfig"; sourceTree = "<group>"; };
+		991161B72804D6C0003EBAE3 /* Ext + Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext + Label.swift"; sourceTree = "<group>"; };
 		997A7FCE280072360055C9A4 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
 		997A7FD0280075900055C9A4 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		999F7AD827FE506000DB86C3 /* CoctailAppTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoctailAppTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,6 +35,7 @@
 		999F7AE927FE506300DB86C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		999FF46C27FF8CBD00B20E10 /* Ext + String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext + String.swift"; sourceTree = "<group>"; };
 		999FF46E27FF8F1C00B20E10 /* TagsCloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsCloud.swift; sourceTree = "<group>"; };
+		99DAD1AF2802FB7800FF49F2 /* CoctailNameTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoctailNameTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +85,12 @@
 				999F7ADF27FE506000DB86C3 /* CoctailViewController.swift */,
 				999FF46C27FF8CBD00B20E10 /* Ext + String.swift */,
 				999FF46E27FF8F1C00B20E10 /* TagsCloud.swift */,
+				99DAD1AF2802FB7800FF49F2 /* CoctailNameTextField.swift */,
 				999F7AE427FE506300DB86C3 /* Assets.xcassets */,
 				999F7AE927FE506300DB86C3 /* Info.plist */,
 				997A7FCE280072360055C9A4 /* Drink.swift */,
 				997A7FD0280075900055C9A4 /* NetworkService.swift */,
+				991161B72804D6C0003EBAE3 /* Ext + Label.swift */,
 			);
 			path = CoctailAppTest;
 			sourceTree = "<group>";
@@ -214,8 +220,10 @@
 				999FF46D27FF8CBD00B20E10 /* Ext + String.swift in Sources */,
 				999F7AE027FE506000DB86C3 /* CoctailViewController.swift in Sources */,
 				999F7ADC27FE506000DB86C3 /* AppDelegate.swift in Sources */,
+				991161B82804D6C0003EBAE3 /* Ext + Label.swift in Sources */,
 				997A7FCF280072360055C9A4 /* Drink.swift in Sources */,
 				999F7ADE27FE506000DB86C3 /* SceneDelegate.swift in Sources */,
+				99DAD1B02802FB7800FF49F2 /* CoctailNameTextField.swift in Sources */,
 				997A7FD1280075900055C9A4 /* NetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

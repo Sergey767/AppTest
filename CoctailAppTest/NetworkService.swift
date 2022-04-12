@@ -8,7 +8,7 @@
 import Foundation
 import Alamofire
 
-class NetworkService {
+final class NetworkService {
     
     func getDrinks(completion: @escaping (Drink) -> Void) {
         

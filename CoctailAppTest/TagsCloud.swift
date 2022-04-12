@@ -9,7 +9,12 @@ import Foundation
 import UIKit
 import SnapKit
 
-class TagsCloud {
+final class TagsCloud {
+    
+    private var bgView = UIView()
+    var textlable = UILabel()
+    let coctailNameTextField = CoctailNameTextField()
+    private let viewContainer = UIView()
     
     func createTagCloud(OnView view: UIScrollView, withArray data: Drink) {
         
@@ -30,8 +35,8 @@ class TagsCloud {
                 yPos = yPos + 29.0 + 8.0
             }
             
-            let bgView = UIView()
-            view.addSubview(bgView)
+            bgView = UIView()
+            viewContainer.addSubview(bgView)
             bgView.snp.makeConstraints { make in
                 make.left.equalToSuperview().inset(xPos)
                 make.top.equalToSuperview().inset(yPos)
@@ -39,14 +44,14 @@ class TagsCloud {
                 make.height.equalTo(29.0)
             }
             
-            bgView.layer.cornerRadius = 14.5
+            bgView.layer.cornerRadius = 10.0
             bgView.backgroundColor = UIColor(red: 196.0/255.0, green: 196.0/255.0, blue: 196.0/255.0, alpha: 1.0)
             bgView.tag = tag
             
             let gesture = UITapGestureRecognizer(target: self, action:  #selector(self.someAction(_:)))
             bgView.addGestureRecognizer(gesture)
             
-            let textlable = UILabel()
+            textlable = UILabel()
             bgView.addSubview(textlable)
             textlable.snp.makeConstraints { make in
                 make.centerX.equalToSuperview()
@@ -61,6 +66,18 @@ class TagsCloud {
             xPos = CGFloat(xPos) + CGFloat(width) + CGFloat(17.0) + CGFloat(43.0)
             tag = tag  + 1
         }
+        
+        view.addSubview(viewContainer)
+        viewContainer.snp.makeConstraints { (make) in
+            make.left.equalTo(view).offset(0)
+            make.right.equalTo(view).offset(0)
+            make.top.equalTo(view)
+            make.bottom.equalTo(view).offset(-300)
+            make.width.equalTo(view)
+            make.height.equalTo(view).offset(600)
+        }
+            
+        coctailNameTextField.setupCoctailNameTextField(OnView: view, twoView: viewContainer)
     }
     
     @objc func someAction(_ sender: UITapGestureRecognizer) {
